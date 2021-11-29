@@ -19,7 +19,7 @@ The model classifies images (original base picture. skins and fanart) of 5 champ
 ## About the project 
 This project has 4 main: **data collection**, **model**, **backend** and **frontend**
 
-### [Data collection](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/model/model.ipynb) :link:
+## [Data collection](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/model/model.ipynb) :link:
 
 The dataset was built using **simple_image_download**. It was used to downlaod 25 images per champion, which were divided in train 80% and test 20%. The code to buil the dataset is potrayed next. 
 
