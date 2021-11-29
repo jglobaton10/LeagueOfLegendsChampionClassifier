@@ -1,0 +1,64 @@
+.card-wrapper {
+    margin: 0.5% 0;
+    background-color: #10171F;
+  }
+  
+ You can adjust the image size by increasingdecreasing the width, height 
+.custom-circle-image {
+  width :10vw;  /* note i used vw not px for better responsive  */
+  height :10vw;
+  background-color: #10171F;
+}
+
+.custom-circle-image img {
+  object-fit :cover;
+  background-color: #10171F;
+}
+
+.card-title {
+  
+  color: white;
+}
+
+.card-text {
+  font-family:MerriweatherRegular;
+  font-size:22px;
+  line-height:initial;
+
+}
+
+.dropzone {
+  border-style: dashed;
+  background-color: #072736;
+  text-decoration-color: white;
+  font-family:MerriweatherRegular;
+ 
+}
+
+
+.error {
+  font-family MerriweatherRegular;
+  font-size 30px;
+  line-height initial;
+  color blue;
+  text-align center;
+}
+
+#classTable {
+  font-family Trebuchet MS, Arial, Helvetica, sans-serif;
+  border-collapse collapse;
+  width 100%;
+}
+
+#classTable td, #classTable th {
+  border 1px solid #ddd;
+  padding 8px;
+}
+
+#classTable th {
+  padding-top 12px;
+  padding-bottom 12px;
+  text-align left;
+  background-color #4CAF50;
+  color white;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of legends Champion classifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dropzone.min.css">
+    <link rel="stylesheet" href="./app.css">
+</head>
+
+<body style="background-color:#10171F;" >
+    <nav class="navbar navbar-dark bg-dark justify-content-center">
+        <!-- <a class="navbar-brand" href="#">League of legends Champion classifier</a> -->
+        <h1 style="color:white;">League of legends Champion classifier</h1> 
+        
+    </nav>
+
+    <p style="margin-left:9em"></p>
+
+
+    <div class="container">
+        <div class="row">
+        <div class="col card-wrapper" data-player="Aatrox">
+                <div style="background-color:#10171F;" class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/Aatrox lol_1.jpeg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-2">
+                        <h4 class="text-uppercase card-title">Aatrox</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>            
+            <div class="col card-wrapper" data-player="Ahri">
+                    <div style="background-color:#10171F;" class="card border-0">
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="./images/Ahri lol_1.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center mt-2">
+                            <h4 class="text-uppercase card-title">Ahri</h4>
+                            </p>
+                        </div>
+                    </div>
+            </div>            
+            <div class="col card-wrapper" data-player="Akali">
+                    <div style="background-color:#10171F;" class="card border-0">
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="./images/Akali lol_1.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center mt-2">
+                            <h4 class="text-uppercase card-title">Akali</h4>
+                            </p>
+                        </div>
+                    </div>
+            </div>          
+
+            <div class="col card-wrapper" data-player="Cassiopeia">
+                <div style="background-color:#10171F;"  class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/Cassiopeia lol_1.jpeg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-2">
+                        <h4 class="text-uppercase card-title">Cassiopeia</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>      
+
+            <div class="col card-wrapper" data-player="Anivia">
+                <div  style="background-color:#10171F;"  class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="./images/Anivia lol_1.jpeg" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-2">
+                        <h4 class="text-uppercase card-title">Anivia</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="container">
+            <div class="row">
+            <div class="col card-wrapper" data-player="Aatrox">
+                    <div style="background-color:#10171F;"  class="card border-0">
+                        <div style = "position:relative; left:1oopx;"  class = "position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img id = "image_predicted" class="w-100 h-100" src="./images/Aatrox lol_1.jpeg" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center mt-2">
+                            <h4  id = "Champion_predicted" class="text-uppercase card-title">Aatrox</h4>
+                            </p>
+                        </div>
+                    </div>
+                </div>   
+
+
+
+        <div class="row">
+            <div class="col-sm-100">
+                
+                <div style = "background-color:#072736; position:relative; left:30px; top:80px"  class="row">
+                    <div class="col-100 mx-auto">
+                        <form action="/file-upload" class="dropzone" id="dropzone">
+                            <div  style="background-color:#072736;" class="dz-message needsclick">
+                                <img  style="background-color:#072736;"  src="./images/Octicons-cloud-upload.svg.png" width="50vw" height="50vw"><br>
+                                <span style="color:white;" class="note needsclick">Drop files here or click to upload</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+
+                <div style = "position:relative; left:65px; top:100px" class="row mt-200">
+                    <div class="col-10 mx-auto">
+                        
+                        <button style=" font-size:15px; background-color:#072736;" id="submitBtn" type="button" class="btn btn-success">Classify</button>
+                    </div>
+                </div>
+            </div>
+
+
+        
+ 
+            
+ 
+
+
+
+
+            
+        </div>
+
+    </div>
+
+</body>
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="./dropzone.min.js"></script>
+<script src="./app.js"></script>
+</html>
