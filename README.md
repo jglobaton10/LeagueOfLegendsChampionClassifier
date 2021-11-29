@@ -11,7 +11,7 @@ League of leguends is one of the most popular MOBA games currently. It consist o
 
 
 
-#### Currently this   project is deployed in AWS EC2. and It can be accesed in this [ **link** ](http://ec2-18-191-142-227.us-east-2.compute.amazonaws.com/) :link:. 
+### Currently this   project is deployed in AWS EC2. and It can be accesed in this [ **link** ](http://ec2-18-191-142-227.us-east-2.compute.amazonaws.com/) :link:. 
 
 The model classifies images (original base picture. skins and fanart) of 5 champions: Aatrox, Ahri, akali, Anivia and Cassipeia. It´s easy to use, just drop an image in the dropzone and press classify.  
 
@@ -19,7 +19,7 @@ The model classifies images (original base picture. skins and fanart) of 5 champ
 ## About the project 
 This project has 4 main: **data collection**, **model**, **backend** and **frontend**
 
-## [Data collection](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/model/model.ipynb) :link:
+### [Data collection](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/model/model.ipynb) :link:
 
 The dataset was built using **simple_image_download**. It was used to downlaod 25 images per champion, which were divided in train 80% and test 20%. The code to buil the dataset is potrayed next. 
 
