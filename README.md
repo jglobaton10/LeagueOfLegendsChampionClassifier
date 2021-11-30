@@ -1,7 +1,7 @@
 
 # League of legends champion classifier
 
-League of leguends is one of the most popular MOBA games currently. It consist on 5vs5 online battles in which objective is to destroy the nexus. Currently, it counts with 157 champions. In this project only 5 of them (my favorite ones) were chosed. I discovered league of legends (lol) in first year of college, I was going through at that moment and this game helped me a lot. This little project is attribute to this amazing game. :grinning: 
+League of leguends is one of the most popular MOBA games currently. It consist on 5vs5 online battles in which objective is to destroy the nexus. Currently, it counts with 157 champions. In this project only 5 of them (my favorite ones) were chosed. I discovered league of legends (lol) in first year of college, I was going through at that moment and this game helped me a lot. This little project is attribute to this amazing game. 😃
 
 <p>
 <img src="https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/images/lol_gif_part_1_Trim.gif" width="45%"/>
@@ -44,13 +44,13 @@ for champion in champions.name:
 
 
 
-### [Model](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/model/model.ipynb) :link:
+### [Model](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/model/model.ipynb) 🔗
 
 It was built a **convolutional neural network**  model using tensorflow and keras. Parameter tuning was performed on the number of neurons and layers and It achieved a **precison 0.75**. 
 
-### [Backend](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/Flaskserver/server.py) :link:
+### [Backend](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/Flaskserver/server.py) 🔗
 
 The backend was built using flask and it is composed of two parts. First, a helper module that loades the wieghts in the model and make predictions taking a base64 image decoding it and applying the predict function from the model. Second, the flask server which receives the return requests. 
 
-### [Frontend](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/tree/main/Front_end) :link:
+### [Frontend](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/tree/main/Front_end) 🔗
 It is basic html a .js app  that takes an image encode it in base64 and sends and receives requests. This part of the app was deployed in a **nginx server** inside the EC2 instance. 
