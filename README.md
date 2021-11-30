@@ -6,9 +6,9 @@ League of leguends is one of the most popular MOBA games currently. It consist o
 </p>
   
 
-<img src="images/lol_gif_part_1_Trim.gif" width="60%"/>
+<img src="images/lol_gif_part_1_Trim.gif" width="100%"/>
 
-<img src="images/lol_gif_part_1_Trim-_2_.gif" width="60%"/>
+<img src="images/lol_gif_part_1_Trim-_2_.gif" width="100%"/>
 
 
 
