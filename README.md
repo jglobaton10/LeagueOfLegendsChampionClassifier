@@ -5,11 +5,11 @@
 League of leguends is one of the most popular MOBA games currently. It consist on 5vs5 online battles in which objective is to destroy the nexus. Currently, it counts with 157 champions. In this project only 5 of them (my favorite ones) were chosed. I discovered league of legends (lol) in first year of college, I was going through at that moment and this game helped me a lot. This little project is attribute to this amazing game. 😃
 </p>
   
-<p>
-<img src="images/lol_gif_part_1_Trim.gif" width="45%"/>
-  &nbsp; &nbsp; &nbsp; &nbsp;
-<img src="images/lol_gif_part_1_Trim-_2_.gif" width="45%"/>
-</p>
+
+<img src="images/lol_gif_part_1_Trim.gif" width="60%"/>
+
+<img src="images/lol_gif_part_1_Trim-_2_.gif" width="60%"/>
+
 
 
 
