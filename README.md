@@ -1,8 +1,10 @@
 
 # League of legends champion classifier
 
+ <p align="justify">
 League of leguends is one of the most popular MOBA games currently. It consist on 5vs5 online battles in which objective is to destroy the nexus. Currently, it counts with 157 champions. In this project only 5 of them (my favorite ones) were chosed. I discovered league of legends (lol) in first year of college, I was going through at that moment and this game helped me a lot. This little project is attribute to this amazing game. 😃
-
+</p>
+  
 <p>
 <img src="images/lol_gif_part_1_Trim.gif" width="45%"/>
   &nbsp; &nbsp; &nbsp; &nbsp;
@@ -11,9 +13,11 @@ League of leguends is one of the most popular MOBA games currently. It consist o
 
 
 
-Currently this   project is deployed in AWS EC2. It can be accesed in this <a href="http://ec2-18-191-142-227.us-east-2.compute.amazonaws.com/" style="color:#1B39ED; font-size:10px;" align="center"> link</a> 🔗.
+Currently this   project is deployed in AWS EC2. It can be accesed in this <a href="http://ec2-18-191-142-227.us-east-2.compute.amazonaws.com/" style="color:#1B39ED; font-size:30px;" align="center"> link</a> 🔗.
 
+<p align="justify">
 The model classifies images (original base picture. skins and fanart) of 5 champions: Aatrox, Ahri, akali, Anivia and Cassipeia. It´s easy to use, just drop an image in the dropzone and press classify.  
+</p>
 
 ---
 ## About the project 
@@ -21,7 +25,9 @@ This project has 4 main: **data collection**, **model**, **backend** and **front
 
 ### [Data collection](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/model/model.ipynb) 🔗
 
+<p align="justify">
 The dataset was built using **simple_image_download**. It was used to downlaod 25 images per champion, which were divided in train 80% and test 20%. The code to buil the dataset is potrayed next. 
+</p>
 
 ```python
 
@@ -46,11 +52,16 @@ for champion in champions.name:
 
 ### [Model](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/model/model.ipynb) 🔗
 
+<p align="justify">
 It was built a **convolutional neural network**  model using tensorflow and keras. Parameter tuning was performed on the number of neurons and layers and It achieved a **precison 0.75**. 
+</p>
 
 ### [Backend](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/Flaskserver/server.py) 🔗
-
+<p align="justify">
 The backend was built using flask and it is composed of two parts. First, a helper module that loades the wieghts in the model and make predictions taking a base64 image decoding it and applying the predict function from the model. Second, the flask server which receives the return requests. 
+</p>
 
+<p align="justify">
 ### [Frontend](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/tree/main/Front_end) 🔗
 It is basic html a .js app  that takes an image encode it in base64 and sends and receives requests. This part of the app was deployed in a **nginx server** inside the EC2 instance. 
+</p>
