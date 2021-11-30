@@ -11,7 +11,7 @@ League of leguends is one of the most popular MOBA games currently. It consist o
 
 
 
-## Currently this   project is deployed in AWS EC2. It can be accesed in this <a href="http://ec2-18-191-142-227.us-east-2.compute.amazonaws.com/" style="color:#2D80DB; font-size:15 px;" align="center"> link</a> 🔗.
+Currently this   project is deployed in AWS EC2. It can be accesed in this <a href="http://ec2-18-191-142-227.us-east-2.compute.amazonaws.com/" style="color:#1B39ED; font-size:10px;" align="center"> link</a> 🔗.
 
 The model classifies images (original base picture. skins and fanart) of 5 champions: Aatrox, Ahri, akali, Anivia and Cassipeia. It´s easy to use, just drop an image in the dropzone and press classify.  
 
