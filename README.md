@@ -4,9 +4,9 @@
 League of leguends is one of the most popular MOBA games currently. It consist on 5vs5 online battles in which objective is to destroy the nexus. Currently, it counts with 157 champions. In this project only 5 of them (my favorite ones) were chosed. I discovered league of legends (lol) in first year of college, I was going through at that moment and this game helped me a lot. This little project is attribute to this amazing game. 😃
 
 <p>
-<img src="https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/images/lol_gif_part_1_Trim.gif" width="45%"/>
+<img src="images/lol_gif_part_1_Trim.gif" width="45%"/>
   &nbsp; &nbsp; &nbsp; &nbsp;
-<img src="https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/images/lol_gif_part_1_Trim-_2_.gif" width="45%"/>
+<img src="images/lol_gif_part_1_Trim-_2_.gif" width="45%"/>
 </p>
 
 
@@ -19,7 +19,7 @@ The model classifies images (original base picture. skins and fanart) of 5 champ
 ## About the project 
 This project has 4 main: **data collection**, **model**, **backend** and **frontend**
 
-### [Data collection](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/model/model.ipynb) :link:
+### [Data collection](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/model/model.ipynb) 🔗
 
 The dataset was built using **simple_image_download**. It was used to downlaod 25 images per champion, which were divided in train 80% and test 20%. The code to buil the dataset is potrayed next. 
 
