@@ -13,7 +13,7 @@ League of leguends is one of the most popular MOBA games currently. It consist o
 
 
 
-Currently this   project is deployed in AWS EC2. It can be accesed in this <a href="http://ec2-18-191-142-227.us-east-2.compute.amazonaws.com/" style="color:#1B39ED; font-size:30px;" align="center"> link</a> 🔗.
+Currently this   project is deployed in AWS EC2. It can be accesed in this <a href="http://ec2-18-191-142-227.us-east-2.compute.amazonaws.com/" style="color:#1B39ED; font-size:20px;" align="center"> link</a> 🔗.
 
 <p align="justify">
 The model classifies images (original base picture. skins and fanart) of 5 champions: Aatrox, Ahri, akali, Anivia and Cassipeia. It´s easy to use, just drop an image in the dropzone and press classify.  
@@ -61,7 +61,8 @@ It was built a **convolutional neural network**  model using tensorflow and kera
 The backend was built using flask and it is composed of two parts. First, a helper module that loades the wieghts in the model and make predictions taking a base64 image decoding it and applying the predict function from the model. Second, the flask server which receives the return requests. 
 </p>
 
-<p align="justify">
+
 ### [Frontend](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/tree/main/Front_end) 🔗
+<p align="justify">
 It is basic html a .js app  that takes an image encode it in base64 and sends and receives requests. This part of the app was deployed in a **nginx server** inside the EC2 instance. 
 </p>
