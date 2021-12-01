@@ -23,7 +23,7 @@ The model classifies images (original base picture. skins and fanart) of 5 champ
 ## About the project 
 This project has 4 main: **data collection**, **model**, **backend** and **frontend**
 
-### [Data collection](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/model/model.ipynb) 🔗
+### [Data collection](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/model/model.ipynb)
 
 <p align="justify">
 The dataset was built using **simple_image_download**. It was used to downlaod 25 images per champion, which were divided in train 80% and test 20%. The code to buil the dataset is potrayed next. 
@@ -49,20 +49,19 @@ for champion in champions.name:
 
 
 
-
-### [Model](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/model/model.ipynb) 🔗
+### [Model](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/model/model.ipynb)
 
 <p align="justify">
-It was built a **convolutional neural network**  model using tensorflow and keras. Parameter tuning was performed on the number of neurons and layers and It achieved a **precison 0.75**. 
+It was built a **convolutional neural network**  model using tensorflow and keras. Parameter tuning was performed on the number of neurons and layers and It achieved a precison 0.75. 
 </p>
 
-### [Backend](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/Flaskserver/server.py) 🔗
+### [Backend](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/blob/main/Flaskserver/server.py)
 <p align="justify">
 The backend was built using flask and it is composed of two parts. First, a helper module that loades the wieghts in the model and make predictions taking a base64 image decoding it and applying the predict function from the model. Second, the flask server which receives the return requests. 
 </p>
 
 
-### [Frontend](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/tree/main/Front_end) 🔗
+### [Frontend](https://github.com/jglobaton10/LeagueOfLegendsChampionClassifier/tree/main/Front_end)
 <p align="justify">
-It is basic html a .js app  that takes an image encode it in base64 and sends and receives requests. This part of the app was deployed in a **nginx server** inside the EC2 instance. 
+It is basic html a .js app  that takes an image encode it in base64 and sends and receives requests. This part of the app was deployed in a nginx server inside the EC2 instance. 
 </p>
